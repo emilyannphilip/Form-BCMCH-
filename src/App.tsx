@@ -23,7 +23,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navigate to="/employee/new" replace />} />
-          <Route path="/employee/new" element={<EmployeeForm />} />
+          <Route path="/employee" element={<EmployeeForm />} />
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>
